@@ -1,0 +1,79 @@
+baseURL: ""
+languageCode: en-us
+title: Kanan Yusubov
+theme: PaperMod
+
+params:
+  author: Kanan Yusubov
+  keywords: [blog, page ]
+  label:
+    title: Test
+    icon: profile.jpeg
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+  cover:
+    responsiveImages: true
+  profileMode:
+      enabled: true
+      title: "<Title>" # optional default will be site title
+      subtitle: "Senior Mobile Platforms Engineer (Flutter) & Founder of Azerbaijan Flutter Users Community"
+      imageUrl: "profile.jpeg" # optional
+      imageTitle: "<title of image as alt>" # optional
+      imageWidth: 200 # custom size
+      imageHeight: 200 # custom size
+      buttons:
+        - name: Archive
+          url: "/archives"
+        - name: Tags
+          url: "/tags"
+  socialIcons:
+    - name: "facebook"
+      url: "https://www.facebook.com/kanan.yusub"
+    - name: "github"
+      url: "https://github.com/thisisyusub"
+    - name: "medium"
+      url: "https://medium.com/@thisisyusub"
+    - name: "spotify"
+      url: "https://open.spotify.com/user/31cfyo6olr4agp2lqgcv6mrnoyja?si=84f7a7a40721495f"
+    - name: "stackoverflow"
+      url: "https://stackoverflow.com/users/10996870/thisisyusub"
+    - name: "telegram"
+      url: "https://t.me/yusubX"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UC9j42eR0UxQTwKHY_j71i4g" 
+  defaultTheme: dark
+  homeInfoParams:
+        Title: Hi there!
+        Content: Can be Info, links, about...
+  linkFullImages: true
+  showBreadCrumbs: true
+  showReadingTime: true
+  showShareButtons: true
+  disableThemeToggle: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
+  hideFooter: true
+  outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+  editPost:
+    URL: "https://github.com/thisisyusub/Qasid/"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+menu: 
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+    - identifier: archive
+      name: Archives
+      url: /archives/
