@@ -4,6 +4,7 @@ title: Kanan Yusubov
 theme: PaperMod
 
 params:
+  social:
   author: Kanan Yusubov
   keywords: [blog, page ]
   label:
@@ -50,7 +51,6 @@ params:
   linkFullImages: true
   showBreadCrumbs: true
   showReadingTime: true
-  showShareButtons: true
   disableThemeToggle: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
@@ -62,7 +62,7 @@ params:
         - RSS
         - JSON # is necessary
   editPost:
-    URL: "https://github.com/thisisyusub/Qasid/"
+    URL: "https://github.com/thisisyusub/Personal-Website/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -74,6 +74,3 @@ menu:
     - identifier: blogs
       name: Blogs
       url: /blogs/
-    - identifier: archive
-      name: Archives
-      url: /archives/
