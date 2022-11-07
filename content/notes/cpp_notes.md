@@ -1,11 +1,8 @@
 ---
-title: "Cpp_notes"
+title: "Cpp notes"
 date: 2022-11-07T21:36:36+04:00
 draft: true
 ---
-
-# C++ notes
-
 ## 0. Compilers for C++
 
 1. Clang (LLVM)

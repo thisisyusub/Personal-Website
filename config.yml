@@ -49,7 +49,6 @@ params:
         Title: Hi there!
         Content: Can be Info, links, about...
   linkFullImages: true
-  showBreadCrumbs: true
   showReadingTime: true
   disableThemeToggle: true
   ShowCodeCopyButtons: true
@@ -71,6 +70,9 @@ menu:
     - identifier: about
       name: About
       url: /about/
+    - identifier: notes
+      name: Notes
+      url: /notes/
     - identifier: blogs
       name: Blogs
       url: /blogs/
