@@ -9,7 +9,7 @@ params:
   keywords: [blog, page ]
   label:
     title: Test
-    icon: profile.jpg
+    icon: /profile.jpg
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
