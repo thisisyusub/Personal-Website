@@ -9,7 +9,7 @@ params:
   keywords: [blog, page ]
   label:
     title: Test
-    icon: profile.jpeg
+    icon: profile.jpg
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
@@ -29,6 +29,8 @@ params:
           url: "/archives"
         - name: Tags
           url: "/tags"
+        - name: My Resume
+          url: "/docs/Resume.pdf"
   socialIcons:
     - name: "facebook"
       url: "https://www.facebook.com/kanan.yusub"
@@ -60,10 +62,6 @@ params:
         - HTML
         - RSS
         - JSON # is necessary
-  editPost:
-    URL: "https://github.com/thisisyusub/Personal-Website/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
 menu: 
   main:
@@ -76,3 +74,9 @@ menu:
     - identifier: blogs
       name: Blogs
       url: /blogs/
+    - identifier: video-tutorials
+      name: Video Tutorials
+      url: /video-tutorials/
+    - identifier: conference-talks
+      name: Conference Talks
+      url: /conference-talks/
