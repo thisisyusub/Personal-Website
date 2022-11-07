@@ -1,7 +1,7 @@
 ---
 title: "Cpp notes"
 date: 2022-11-07T21:36:36+04:00
-draft: true
+draft: false
 ---
 ## 0. Compilers for C++
 
