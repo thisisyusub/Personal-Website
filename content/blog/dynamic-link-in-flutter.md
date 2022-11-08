@@ -6,6 +6,7 @@ cover:
     image: /blogs/deeplink/cover.png
 categories: ["tech"]
 tags: ["flutter", "dart", "dynamic link", "deep link", "firebase", "riverpod"]
+subscribe: true
 ---
 This is just for test
 
