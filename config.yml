@@ -1,7 +1,6 @@
 baseURL: "yusubov.com"
 languageCode: en-us
 title: Kanan Yusubov
-icon: profile.png
 theme: PaperMod
 
 params:
