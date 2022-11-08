@@ -6,7 +6,6 @@ ShowWordCount: false
 cover:
     image: /portfolio/mkt_cotton.png
 author: " "
-weight: 2
 ---
 
 MKT Istehsalat Kommersiya LLC produces yarn, cottonseed oil, cottonseed and yarn from raw cotton, mainly mahlich, chiyid, as well as lint, uluk and tiftik. These products are mainly exported to Turkey, Iran, Russia and other CIS countries. The company's cotton yarn is medium and has a unique color, which, for example, differs from American cotton in its yellowish shades.

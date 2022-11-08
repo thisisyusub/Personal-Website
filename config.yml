@@ -1,20 +1,21 @@
 baseURL: "https://yusubov.com/"
 languageCode: en-us
-title: Kanan Yusubov
+title: Thisisyusub
 theme: PaperMod
+enableRobotsTXT: true
+disqusShortname: yourDisqusShortname
 
 params:
-  author: Kanan Yusubov
   keywords: [blog, page ]
   label:
     title: Test
     icon: /profile.jpg
   cover:
     responsiveImages: true
+  comments: true
   profileMode:
       enabled: true
-      title: "Kanan Yusubov" # optional default will be site title
-      subtitle: "Senior Mobile Platforms Engineer (Flutter) & Founder of Azerbaijan Flutter Users Community"
+      subtitle: " Flutter Enthusiast (3+ years) & Founder of Azerbaijan Flutter Users Community"
       imageUrl: "profile.jpeg" # optional
       imageTitle: "<title of image as alt>" # optional
       imageWidth: 200 # custom size
@@ -57,6 +58,22 @@ params:
   ShowWordCount: true
   ShowFullTextinRSS: true
   hideFooter: true
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["blog", "notes", "portfolio", "about"]
+  outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+  ShowToc: true
 
 menu:
   main:
@@ -82,4 +99,7 @@ menu:
     - identifier: conferences
       name: Conference Talks
       url: /conference-talks/
+    - identifier: search
+      name: Search
+      url: /search/
 
