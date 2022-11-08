@@ -1,6 +1,7 @@
-baseURL: ""
+baseURL: "yusubov.com"
 languageCode: en-us
 title: Kanan Yusubov
+icon: profile.png
 theme: PaperMod
 
 params:
@@ -10,10 +11,6 @@ params:
   label:
     title: Test
     icon: /profile.jpg
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
   cover:
     responsiveImages: true
   profileMode:
@@ -32,6 +29,12 @@ params:
         - name: My Resume
           url: "/docs/Resume.pdf"
   socialIcons:
+    - name: "rss"
+      url: "yusubov.com/index.xml"
+    - name: "email"
+      url: "https://www.linkedin.com/in/thisisyusub/"
+    - name: "linkedin"
+      url: "dev@yusubov.com"
     - name: "facebook"
       url: "https://www.facebook.com/kanan.yusub"
     - name: "github"
@@ -46,37 +49,52 @@ params:
       url: "https://t.me/yusubX"
     - name: "youtube"
       url: "https://www.youtube.com/channel/UC9j42eR0UxQTwKHY_j71i4g" 
-  defaultTheme: dark
   homeInfoParams:
         Title: Hi there!
         Content: Can be Info, links, about...
   linkFullImages: true
   showReadingTime: true
-  disableThemeToggle: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   ShowWordCount: true
+  ShowFullTextinRSS: true
   hideFooter: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
   outputs:
     home:
         - HTML
         - RSS
         - JSON # is necessary
 
-menu: 
+menu:
   main:
     - identifier: about
       name: About
       url: /about/
+      weight: 1
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio/
+      weight: 2
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 3
+    - identifier: video tutorials
+      name: Video Tutorials
+      url: /video-tutorials/
+      weight: 4
     - identifier: notes
       name: Notes
       url: /notes/
-    - identifier: blogs
-      name: Blogs
-      url: /blogs/
-    - identifier: video-tutorials
-      name: Video Tutorials
-      url: /video-tutorials/
-    - identifier: conference-talks
+    - identifier: conference talks
       name: Conference Talks
       url: /conference-talks/
+

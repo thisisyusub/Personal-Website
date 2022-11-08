@@ -4,6 +4,7 @@ layout: "about"
 url: "/about/"
 summary: about
 showShareButtons: false
+searchHidden: false
 ---
 I am Flutter Engineer based in Azerbaijan. I have more than 3+ years of experience in this field. I am the founder of [Azerbaijan Flutter Users Community](https://www.facebook.com/groups/azfluttercommunity).
 
