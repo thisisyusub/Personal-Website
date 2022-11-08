@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "yusubov.com"
 languageCode: en-us
 title: Kanan Yusubov
 theme: PaperMod
@@ -28,9 +28,11 @@ params:
         - name: My Resume
           url: "/docs/Resume.pdf"
   socialIcons:
+    - name: "rss"
+      url: "yusubov.com/index.xml"
     - name: "email"
-      url: ""
-    - name: "dev@yusubov.com"
+      url: "dev@yusubov.com"
+    - name: "linkedin"
       url: "https://www.linkedin.com/in/thisisyusub/"
     - name: "facebook"
       url: "https://www.facebook.com/kanan.yusub"
@@ -46,11 +48,15 @@ params:
       url: "https://t.me/yusubX"
     - name: "youtube"
       url: "https://www.youtube.com/channel/UC9j42eR0UxQTwKHY_j71i4g" 
+  homeInfoParams:
+        Title: Hi there!
+        Content: Can be Info, links, about...
   linkFullImages: true
   showReadingTime: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   ShowWordCount: true
+  ShowFullTextinRSS: true
   hideFooter: true
 
 menu:
@@ -67,14 +73,14 @@ menu:
       name: Blog
       url: /blog/
       weight: 3
-    - identifier: video-tutorials
+    - identifier: videos
       name: Video Tutorials
       url: /video-tutorials/
       weight: 4
     - identifier: notes
       name: Notes
       url: /notes/
-    - identifier: conference-talks
+    - identifier: conferences
       name: Conference Talks
       url: /conference-talks/
 
