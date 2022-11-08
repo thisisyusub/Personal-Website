@@ -6,6 +6,7 @@ ShowWordCount: false
 cover:
     image: /portfolio/qasid.png
 author: " "
+showToc: false
 ---
 It is possible to read news from different news sites in Azerbaijan in this application by selecting them within one application. The main functionality of the application is:
 - Selection of news sources

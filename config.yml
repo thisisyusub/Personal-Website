@@ -1,9 +1,23 @@
 baseURL: "https://yusubov.com/"
 languageCode: en-us
 title: Thisisyusub
-theme: PaperModModified
+theme: PaperMod
 enableRobotsTXT: true
 disqusShortname: yourDisqusShortname
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["blog", "notes", "portfolio", "about"]
 
 params:
   keywords: [blog, page ]
@@ -57,23 +71,8 @@ params:
   ShowPostNavLinks: true
   ShowWordCount: true
   ShowFullTextinRSS: true
-  hideFooter: true
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["blog", "notes", "portfolio", "about"]
-  outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # is necessary
   ShowToc: true
+  TocOpen: true
 
 menu:
   main:
