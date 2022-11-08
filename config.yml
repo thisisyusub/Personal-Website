@@ -1,10 +1,9 @@
-baseURL: "yusubov.com"
+baseURL: ""
 languageCode: en-us
 title: Kanan Yusubov
 theme: PaperMod
 
 params:
-  social:
   author: Kanan Yusubov
   keywords: [blog, page ]
   label:
