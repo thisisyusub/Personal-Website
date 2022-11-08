@@ -1,7 +1,7 @@
 baseURL: "https://yusubov.com/"
 languageCode: en-us
 title: Thisisyusub
-theme: PaperMod
+theme: PaperModModified
 enableRobotsTXT: true
 disqusShortname: yourDisqusShortname
 
