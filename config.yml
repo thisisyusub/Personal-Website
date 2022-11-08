@@ -1,4 +1,4 @@
-baseURL: "yusubov.com"
+baseURL: ""
 languageCode: en-us
 title: Kanan Yusubov
 theme: PaperMod
@@ -14,7 +14,7 @@ params:
     responsiveImages: true
   profileMode:
       enabled: true
-      title: "<Title>" # optional default will be site title
+      title: "Kanan Yusubov" # optional default will be site title
       subtitle: "Senior Mobile Platforms Engineer (Flutter) & Founder of Azerbaijan Flutter Users Community"
       imageUrl: "profile.jpeg" # optional
       imageTitle: "<title of image as alt>" # optional
@@ -29,9 +29,9 @@ params:
           url: "/docs/Resume.pdf"
   socialIcons:
     - name: "email"
+      url: ""
+    - name: "dev@yusubov.com"
       url: "https://www.linkedin.com/in/thisisyusub/"
-    - name: "linkedin"
-      url: "dev@yusubov.com"
     - name: "facebook"
       url: "https://www.facebook.com/kanan.yusub"
     - name: "github"
@@ -46,9 +46,6 @@ params:
       url: "https://t.me/yusubX"
     - name: "youtube"
       url: "https://www.youtube.com/channel/UC9j42eR0UxQTwKHY_j71i4g" 
-  homeInfoParams:
-        Title: Hi there!
-        Content: Can be Info, links, about...
   linkFullImages: true
   showReadingTime: true
   ShowCodeCopyButtons: true
@@ -70,14 +67,14 @@ menu:
       name: Blog
       url: /blog/
       weight: 3
-    - identifier: video tutorials
+    - identifier: video-tutorials
       name: Video Tutorials
       url: /video-tutorials/
       weight: 4
     - identifier: notes
       name: Notes
       url: /notes/
-    - identifier: conference talks
+    - identifier: conference-talks
       name: Conference Talks
       url: /conference-talks/
 
