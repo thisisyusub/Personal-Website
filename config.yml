@@ -29,7 +29,7 @@ params:
           url: "/docs/Resume.pdf"
   socialIcons:
     - name: "rss"
-      url: "yusubov.com/index.xml"
+      url: "https://yusubov.com/index.xml"
     - name: "email"
       url: "dev@yusubov.com"
     - name: "linkedin"
