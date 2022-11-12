@@ -51,10 +51,6 @@
         {{- end }}
     </footer>
 
-    {{- if (.Param "comments") }}
-    {{- partial "comments.html" . }}
-    {{- end }}
-
     {{- if (.Param "subscribe") }}
     {{- partial "subscribe.html" . }}
     {{- end }}

@@ -73,6 +73,7 @@ params:
   ShowFullTextinRSS: true
   ShowToc: true
   TocOpen: true
+  hideFooter: true
 
 menu:
   main:
