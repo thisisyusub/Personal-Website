@@ -115,3 +115,39 @@ The heap is not managed automatically for you and is not as tightly managed by t
 **Abstract Data type (ADT)** is a type (or class) for objects whose behavior is defined by a set of values and a set of operations. The definition of ADT only mentions what operations are to be performed but not how these operations will be implemented. It does not specify how data will be organized in memory and what algorithms will be used for implementing the operations. It is called “abstract” because it gives an implementation-independent view. 
 
 ![Types of Data Structures](/notes/algorithms_and_ds/types-of-data-structure.png)
+
+---
+
+## 4. Recursion
+
+A function that calls itself is known as a recursive function. And, this technique is known as recursion.
+
+### Master Theorem
+
+The master method is a formula for solving recurrence relations of the form:
+
+![Master Theorem](/notes/algorithms_and_ds/master.png)
+![Master Theorem](/notes/algorithms_and_ds/recursion-complexity-1.jpg)
+![Master Theorem](/notes/algorithms_and_ds/recursion-complexity-2.jpg)
+
+### Types of Recursion
+
+#### Tail Recursion
+
+```cpp
+// if it is last statement in the function, it is called [Tail Recursion]
+void func(int n) {
+   if(n > 0) {
+      cout << n << endl;
+      func(n-1);
+   }
+}
+```
+
+#### Head Recursion
+#### Tree Recursion
+
+#### Indirect Recursion
+#### Nested Recursion
+
+
