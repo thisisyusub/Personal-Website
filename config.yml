@@ -41,6 +41,8 @@ params:
           url: "/tags"
         - name: My Resume
           url: "/docs/Resume.pdf"
+        - name: Mentoring and online classes
+          url: "/mentoring-and-courses"
   socialIcons:
     - name: "rss"
       url: "https://yusubov.com/index.xml"
